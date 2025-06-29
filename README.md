@@ -3,7 +3,7 @@
 
 This project leverages **Google Earth Engine (GEE)** and **Sentinel-2 imagery** to analyze and visualize forest cover changes over time in the **Dalma Wildlife Sanctuary**, India. The approach combines remote sensing, supervised classification, and temporal analysis to detect deforestation and forest loss from **2019 to 2023**.
 
-> 🔗 [Open the GEE Script]((https://code.earthengine.google.com/6359eb679c1b736d65d933da3229af5b))
+> 🔗 [Open the GEE Script](https://code.earthengine.google.com/6359eb679c1b736d65d933da3229af5b)
 
 ---
 
