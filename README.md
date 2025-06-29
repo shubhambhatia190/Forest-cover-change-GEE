@@ -20,7 +20,7 @@ The shapefile (`AOI`) should be uploaded as an **Earth Engine asset**. Make sure
 
 ## 🗺️ Study Area
 
-The analysis is focused on the **Dalma Wildlife Sanctuary**, located in **eastern India**, a region known for its ecological richness and diverse wildlife. This area has been under observation to study:
+The analysis is focused on the **Dalma Wildlife Sanctuary**, located in **Eastern India**, a region known for its ecological richness and diverse wildlife. This area has been under observation to study:
 
 - Forest cover change between 2019 and 2023
 - Deforestation hotspots
@@ -30,7 +30,7 @@ The analysis is focused on the **Dalma Wildlife Sanctuary**, located in **easter
 
 ## 🛰️ Data Source
 
-- **Satellite**: [Sentinel-2 Surface Reflectance Harmonised (S2 SR HARMONISED)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED)
+- **Satellite**: [Sentinel-2 Surface Reflectance Harmonized (S2 SR HARMONIZED)](https://developers.google.com/earth-engine/datasets/catalog/COPERNICUS_S2_SR_HARMONIZED)
 - **Platform**: Google Earth Engine
 - **Spatial Resolution**: 10 meters
 - **Bands Used**:
@@ -53,7 +53,7 @@ The analysis is focused on the **Dalma Wildlife Sanctuary**, located in **easter
    - Training shapefiles stored as GEE assets
 
 3. **Classification**
-   - A decision tree classifier (`smileCart`) is trained and applied for both years
+   - A Random Forest classifier (`smileRandomForest`) is trained and applied for both years
    - Outputs are classified land cover images
 
 4. **Change Detection**
