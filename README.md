@@ -11,7 +11,7 @@ This project leverages **Google Earth Engine (GEE)** and **Sentinel-2 imagery** 
 
 ```
 Dalma_study_area/
-└── AOI.shp   # Shapefile defining the Area of Interest (AOI)
+└── Dalma_study_area.shp   # Shapefile defining the Area of Interest (AOI)
 ```
 
 The shapefile (`AOI`) should be uploaded as an **Earth Engine asset**. Make sure to update the script's `studyArea` variable with the asset path to this shapefile before running.
@@ -73,7 +73,7 @@ The analysis is focused on the **Dalma Wildlife Sanctuary**, located in **Easter
 
 ## 🔧 Instructions to Run
 
-1. Upload the `AOI.shp` file (inside the `Dalma_study_area` folder) as an asset to your GEE account.
+1. Upload the `Dalma_study_area.shp` file (inside the `Dalma_study_area` folder) as an asset to your GEE account.
 2. In the GEE script, replace the `studyArea` asset path with the one from your account:
    ```javascript
    var studyArea = ee.FeatureCollection("users/your_username/Dalma_AOI");
